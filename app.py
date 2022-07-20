@@ -27,8 +27,8 @@ def home():
     return """
         <!DOCTYPE html>
         <body style="width: 880px; margin: auto;">
-        <h1> ML For All </h1>
-        <p>Welcome to API for ML For All </p>
+        <h1> CAFIDATA API </h1>
+        <p>Welcome to API for CAFIDATA </p>
         </body>
             """
 
