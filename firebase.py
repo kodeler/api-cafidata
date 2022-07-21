@@ -19,9 +19,9 @@ def bucket_init():
     # initialize reference to Google Cloud Storage bucket
     # avoid initializing app twice
     if not firebase_admin._apps:
-        cred = credentials.Certificate('react-dark-firebase-adminsdk-6ck3r-d961cea52b.json')
+        cred = credentials.Certificate('cafisoftware-firebase-adminsdk-2tgqw-27b3004f19.json')
         firebase_admin.initialize_app(cred, {
-            'storageBucket': 'react-dark.appspot.com'
+            'storageBucket': 'cafisoftware.appspot.com'
         })
     return storage.bucket()
 
