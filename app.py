@@ -9,6 +9,7 @@ from data import Data
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
+# sirve para
 
 
 CORS(app, resources={r"/*": {"origins": "*"}})# cors sirve para que se pueda acceder a la api desde cualquier lugar
